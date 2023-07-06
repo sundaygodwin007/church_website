@@ -1,0 +1,28 @@
+.fixed-top .container-fluid .navbar-toggler{
+    display: none;
+}
+
+.desktop-links a{
+    margin-right: 1.5rem;
+}
+
+.desktop-links button {
+    margin-right: 1.5rem;
+}
+
+
+
+
+
+
+
+/* mobile and tab view */
+@media (max-width: 767px) {
+    .fixed-top .container-fluid .navbar-toggler{
+        display: initial;
+    }
+    
+    .desktop-links{
+        display: none;
+    }
+}
