@@ -47,7 +47,7 @@
         background-color: rgba(59, 123 ,167, 0.6);
     }
 
-    .navbar-toggler .navbar-toggler-icon{
+    .navbar-toggler .navbar-toggler-icon, .btn-close{
         background-color: rgb(255,255,255);
     }
 
