@@ -66,4 +66,8 @@
     header h4{
         font-size: 1.5rem;
     }
+
+    .navbar img{
+        width: 2rem;
+    }
 }
