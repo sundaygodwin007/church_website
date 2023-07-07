@@ -52,7 +52,7 @@
         url(./images/christlove.png);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         text-align: center;
         padding: 14.3rem 4rem;
         height: 100vh;
