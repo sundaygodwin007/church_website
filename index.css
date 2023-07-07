@@ -48,14 +48,14 @@
     }
 
     header{
-        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
         url(./images/christlove.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         text-align: center;
-        padding: 10rem 4rem;
-        height: 70vh;
+        padding: 15rem 4rem;
+        height: 100vh;
         color: rgb(255,255,255)
     }
 
