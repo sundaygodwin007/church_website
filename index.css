@@ -69,7 +69,8 @@
     }
 
     header h5{
-        /* font-family: 'Cookie', cursive; */
+        color: rgb(158, 7, 7);
+        font-weight:  bold;
     }
 
     .navbar img{
