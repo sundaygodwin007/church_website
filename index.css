@@ -38,9 +38,10 @@
     .desktop-links{
         display: none;
     }
-
+    
     .container-fluid a{
-        color: rgb(255,255,255)
+        color: rgb(255,255,255);
+        font-family: 'Playball', cursive;
     }
 
     .navbar .offcanvas, .dropdown-menu{
