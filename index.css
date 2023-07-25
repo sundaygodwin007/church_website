@@ -23,6 +23,43 @@
     color: rgb(11, 135, 237);
 }
 
+/* header */
+
+header .combined-header{
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-top: 10rem;
+align-items: center;
+text-align: center;
+}
+
+header img{
+    width: 22rem
+}
+
+header .combined-header .text-content h5{
+    font-family: 'Kaushan Script';
+    font-size: 1.5rem;
+    color:rgb(249, 32, 12);
+    font-weight: bold;
+}
+
+header .combined-header .text-content h4{
+    font-size: 2rem;
+    color: rgb(11, 135, 237);
+    font-weight: bold;
+}
+
+article .article-text h4{
+    margin-top: 4rem;
+    text-align: center;
+    background-color: rgba(11, 135, 237,0.7);
+    padding: 2rem;
+    color: rgb(255,255,255);
+    border-radius: 1rem;
+}
+
+
 
 
 
@@ -81,4 +118,21 @@
     .navbar img{
         width: 2rem;
     }
+
+    header .combined-header{
+        display: initial;
+    }
+
+    header .combined-header .text-content h4{
+        color: rgb(255,255,255);
+        font-weight: lighter;
+    }
+    header .combined-header .logo-image{
+        display: none;
+    }
+
+    article{
+        display: none;
+    }
+
 }

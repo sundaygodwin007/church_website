@@ -51,6 +51,10 @@
         background-color: rgb(255,255,255);
     }
 
+    .offcanvas-body img{
+        width: 2rem;
+    }
+
     body{
         background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8)),
         url(./images/christlove.png);
@@ -61,12 +65,29 @@
     }
 
 
-    h3{
+    header h3{
         text-align: center;
         margin-top: 5rem;
         color: rgb(255,255,255);
         font-family: 'Kaushan Script', cursive;
+        margin-bottom: 2rem;
     }
 
+    .prayers{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .prayer{
+        background-color: rgba(59, 123 ,167, 0.6);
+        border-radius: 1rem;
+        color: rgb(255,255,255);
+        width: 90%;
+    }
+
+
+    .prayer1, .prayer2{
+        padding: 1rem;
+    }
 
 }
