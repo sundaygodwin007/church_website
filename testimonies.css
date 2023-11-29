@@ -6,12 +6,6 @@
     color: rgb(255,255,255);
 }
 
-/* the image in the front of the soaring youth */
-.navbar img{
-    width: 2rem;
-}
-/*  */
-
 .desktop-links a{
     margin-right: 1.5rem;
 }
@@ -24,6 +18,11 @@ nav {
     background-color: rgb(255, 255, 255);
 }
 
+/*  */
+.navbar img{
+    width: 2rem;
+}
+/*  */
 
 .navbar  a {
     text-decoration: none;
@@ -65,7 +64,7 @@ article{
     color: rgb(255,255,255);
 }
 
-article .prayers{
+article .testimonies{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
@@ -73,7 +72,7 @@ article .prayers{
 }
 
 
-article .prayer{
+article .testimony{
     background-color: rgba(59, 123 ,167, 0.6);
     border-radius: 1rem;
     color: rgb(255,255,255);
@@ -88,7 +87,7 @@ article .prayer{
 
 /* mobile and tab view */
 @media (max-width: 767px) {
-    
+   
     .fixed-top .container-fluid .navbar-toggler{
         display: initial;
     }
@@ -107,21 +106,21 @@ article .prayer{
         
     }
 
-    /*  */
+    /* Church logo */
     .navbar .navbar-brand img{
         border-radius: 50%;
     }
     /*  */
-    
-    .navbar .offcanvas, .dropdown-menu{
-        background-color: rgba(59, 123 ,167, 0.6);
-    }
-    
-    /*  */
+
+    /* soaring youth logo */
     .navbar img{
         width: 2rem;
     }
     /*  */
+
+    .navbar .offcanvas, .dropdown-menu{
+        background-color: rgba(59, 123 ,167, 0.6);
+    }
 
     .navbar-toggler .navbar-toggler-icon, .btn-close{
         background-color: rgb(255,255,255);
@@ -152,12 +151,12 @@ article .prayer{
         font-family: 'Kaushan Script', cursive;
     }
 
-article .prayers{
+article .testimonies{
     display: initial;
 }
 
 
-    article .prayer{
+    article .testimony{
         background-color: rgba(59, 123 ,167, 0.6);
         border-radius: 1rem;
         color: rgb(255,255,255);
@@ -168,7 +167,7 @@ article .prayers{
         margin-bottom: 2rem;
     }
 
-    article .prayers{
+    article .testimonies{
         padding-bottom: 0;
     }
 

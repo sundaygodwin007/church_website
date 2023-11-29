@@ -6,12 +6,6 @@
     color: rgb(255,255,255);
 }
 
-/* the image in the front of the soaring youth */
-.navbar img{
-    width: 2rem;
-}
-/*  */
-
 .desktop-links a{
     margin-right: 1.5rem;
 }
@@ -24,6 +18,12 @@ nav {
     background-color: rgb(255, 255, 255);
 }
 
+
+/* eagle image at the front of the soaring youth  */
+.navbar img{
+    width: 2rem;
+}
+/*  */
 
 .navbar  a {
     text-decoration: none;
@@ -88,7 +88,7 @@ article .prayer{
 
 /* mobile and tab view */
 @media (max-width: 767px) {
-    
+   
     .fixed-top .container-fluid .navbar-toggler{
         display: initial;
     }
@@ -107,26 +107,25 @@ article .prayer{
         
     }
 
-    /*  */
+    /* church logo at the top */
     .navbar .navbar-brand img{
-        border-radius: 50%;
+    border-radius: 50%;
     }
     /*  */
-    
+
     .navbar .offcanvas, .dropdown-menu{
         background-color: rgba(59, 123 ,167, 0.6);
     }
-    
-    /*  */
-    .navbar img{
-        width: 2rem;
-    }
-    /*  */
 
     .navbar-toggler .navbar-toggler-icon, .btn-close{
         background-color: rgb(255,255,255);
     }
 
+    /*  */
+     .navbar img{
+        width: 2rem;
+    }
+    /*  */
 
     body{
         background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8)),
